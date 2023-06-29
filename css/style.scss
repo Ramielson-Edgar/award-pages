@@ -230,6 +230,20 @@ p {
         row-gap: 3rem;
     }
 
+
+    .award-page-features__item-body {
+        border-left: unset;
+        text-align: center;
+    }
+    .award-page-features__item-img-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+ 
+
     .award-page-features__title  {
         font-size: 1rem;
         max-width: 20rem;
@@ -250,8 +264,9 @@ p {
     }
 
     .award-page-features__body-title {
-        font-size: 1rem;
-        line-height: 1.9rem;
+        font-size: 0.8rem;
+        line-height: 1.21rem;
+        margin-bottom: 0;
     }
     
     .award-page-features__row .award-page-features__item:first-child {
