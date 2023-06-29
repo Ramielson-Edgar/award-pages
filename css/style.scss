@@ -68,6 +68,9 @@ p {
 }
 
 
+.text-gradient {
+    color: #42A5F5;
+}
  
  
 
@@ -173,7 +176,11 @@ p {
 .award-page-features__body-company {
     font-weight: 300;
     color: #8C8C8C;
- 
+}
+
+
+.award-page-features__title  {
+    margin-bottom: 5rem;
 }
 
 @media (max-width:1198px) {
