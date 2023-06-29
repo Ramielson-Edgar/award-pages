@@ -230,6 +230,13 @@ p {
         row-gap: 3rem;
     }
 
+    .award-page-features__title  {
+        font-size: 1rem;
+        max-width: 20rem;
+        margin-inline: auto;
+ 
+    }
+
     .award-page-features__row {
         flex-direction: column;
     }
@@ -239,7 +246,7 @@ p {
     }
  
     .section-header__title.award-page {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .award-page-features__body-title {
@@ -251,4 +258,13 @@ p {
         margin-bottom: 2rem;
     }
  
+
+    .section-header__description.award-page {
+        line-height: 1.26rem;
+    }
+
+    .award-page-features__row {
+        padding-bottom: unset;
+        border-bottom: unset;
+    }
 }
